@@ -58,6 +58,7 @@ export default function HomePage() {
           <br />
           <h1>2) Apague a sua vela...</h1>
           <img
+            className="bolao"
             src="https://www.funimada.com/assets/images/cards/big/1st-birthday-64.gif"
             alt="Bolo acesso"
           />
@@ -93,6 +94,10 @@ const Container = styled.div`
     z-index: 0;
     bottom: 0;
     left: 0;
+  }
+  .bolao{
+    width: 80%;
+    max-height: 320px;
   }
 
   display: flex;
@@ -157,9 +162,6 @@ const Container = styled.div`
   }
   img {
     z-index: 0;
-    width: 90%;
-    height: auto;
-    margin-top: 20px;
     margin-bottom: -15px;
     object-fit: contain;
     :hover {
