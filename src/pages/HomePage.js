@@ -18,7 +18,7 @@ export default function HomePage() {
         <br />
         <h1>Obrigado por estar presente em nossas vidas, não podemos imaginar viver sem vc.</h1>
         <br />
-        <h1>Você é sempre será a <strong>Princesa</strong>👸🏽 da nossa familia.</h1>
+        <h1>Você é e sempre será a <strong>Princesa</strong>👸🏽 da nossa familia.</h1>
         <br />
         <h1> Foi feito com muito amor e carinho por <strong>todos:</strong></h1>
         <br />
