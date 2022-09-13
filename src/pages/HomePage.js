@@ -4,18 +4,9 @@ export default function HomePage() {
 
   return (
     <Container>
-      <span>Se voce recebeu este convite saiba que: </span>
-
-      <h4>
-        Voce é uma pessoa <strong>muito especial</strong> para meu papai e minha
-        mamãe. Estou quase chegando para vc poder me dar um cheiro!
-      </h4>
-      <h4>
-        Mas para isto acontecer preciso da sua ajuda. Irei passar as coordenadas
-        de como vc pode me ajudar.
-      </h4>
+      <img src="./teste.png" />
       <div>
-        <button>COORDENADAS DO PLANO!</button>
+        <button>CLIQUE AQUI</button>
       </div>
     </Container>
   );
@@ -29,12 +20,14 @@ const Container = styled.div`
   height: 100vh;
   padding: 2rem;
 
+  
   div{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     width: 100%;
+    height: 100vh;
     
     margin-top: 30px;
     img{
@@ -49,12 +42,13 @@ const Container = styled.div`
     min-height: 70px;
     border-radius: 10px;
 
-    background: linear-gradient(
-      90deg,
-      rgba(2, 0, 36, 1) 0%,
-      rgba(9, 9, 121, 1) 0%,
-      rgba(0, 212, 255, 1) 100%
-    );
+    // background: linear-gradient(
+    //   90deg,
+    //   rgba(2, 0, 36, 1) 0%,
+    //   rgba(9, 9, 121, 1) 0%,
+    //   rgba(0, 212, 255, 1) 100%
+    // );
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(121,9,9,1) 0%, rgba(255,0,0,1) 100%);
 
     border: 1px solid black;
     animation: animate 2s linear infinite;
@@ -67,7 +61,7 @@ const Container = styled.div`
 
     :hover {
       cursor: pointer;
-      box-shadow: 0px 0px 40px rgba(0, 212, 255, 1);
+      box-shadow: 0px 0px 40px rgba(255,0,0,1);
     }
   }
   @keyframes animate {
@@ -75,7 +69,7 @@ const Container = styled.div`
       box-shadow: 0px 0px 40px rgba(48, 222, 255, 0);
     }
     50% {
-      box-shadow: 0px 0px 40px rgba(0, 212, 255, 1);
+      box-shadow: 0px 0px 40px rgba(255,0,0,1);
       font-size: 16px;
     }
     100% {
